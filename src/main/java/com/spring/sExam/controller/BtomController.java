@@ -192,4 +192,10 @@ public class BtomController {
 		return "btom/b7";
 	}
 	
+//	GET방식은 method 생략, value 선언 생략가능
+	@RequestMapping(value = "/b8", method = RequestMethod.GET)
+	public String b8Get() {
+		return "btom/b8";
+	}
+	
 }
