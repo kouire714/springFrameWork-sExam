@@ -23,7 +23,7 @@ public class HomeController {
 	
 	@RequestMapping(value = {"/","/h","/aCheck"}, method = RequestMethod.GET)
 //	public String home(Locale locale, Model model, HttpServletRequest request) {
-//		int age = request.getParameter("age")==null ? 0 : Integer.parseInt(request.getParameter("age"));
+//	int age = request.getParameter("age")==null ? 0 : Integer.parseInt(request.getParameter("age"));
 	public String home(Locale locale, Model model, HttpServletRequest request,
 			@RequestParam(name="age", defaultValue = "0", required = false) int age) {
 		logger.info("Welcome home! The client locale is {}.", locale);

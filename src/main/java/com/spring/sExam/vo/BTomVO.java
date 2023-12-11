@@ -7,7 +7,6 @@ import lombok.Data;
 //@ToString
 
 @Data
-
 public class BTomVO {
 	private String name;
 	private int age;

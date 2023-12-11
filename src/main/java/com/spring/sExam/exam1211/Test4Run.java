@@ -17,11 +17,11 @@ public class Test4Run {
 		vo.getService().printSungjuk(vo1);
 		
 		Test4VO vo2 = (Test4VO) ctx.getBean("vo2");
-		vo1.getService().calc(vo2);
+		vo2.getService().calc(vo2);
 		vo.getService().printSungjuk(vo2);
 		
 		Test4VO vo3 = (Test4VO) ctx.getBean("vo3");
-		vo1.getService().calc(vo3);
+		vo3.getService().calc(vo3);
 		vo.getService().printSungjuk(vo3);
 		
 		vo.getService().printLine();

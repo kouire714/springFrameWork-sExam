@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="serviceCalc" class="com.spring.sExam.exam1211.Test4Service" />
+	<!-- <bean id="serviceCalc" class="com.spring.sExam.exam1211.Test4Service" /> -->
 
 	<bean id="vo1" class="com.spring.sExam.exam1211.Test4VO">  
 		<property name="name" value="홍길동" />
@@ -12,7 +12,7 @@
 		<property name="eng" value="90" />
 		<property name="mat" value="80" />
 		
-		<property name="service" ref="serviceCalc" />
+		<!-- <property name="service" ref="serviceCalc" /> -->
 	</bean>
 	
 	<bean id="vo2" class="com.spring.sExam.exam1211.Test4VO">  

@@ -10,8 +10,9 @@
 	  'use strict';
 	  
 	  function ageCheck() {
+		  let name = myform.name.value;
 		  let age = myform.age.value;
-		  location.href = "${ctp}/?age="+age;
+		  location.href = "${ctp}/?age="+age+"&name="+name;
 	  }
 	</script>
 </head>
@@ -54,18 +55,18 @@
 	</div>
 	<hr/>
 	<p>
-		<a href="${ctp}/btom/b1" class="btn btn-success">b1호출</a> |
-		<a href="${ctp}/btom/b2" class="btn btn-primary">b2호출</a> |
-		<a href="${ctp}/btom/b3" class="btn btn-success">b3호출</a> |
-		<a href="${ctp}/btom/b4" class="btn btn-primary">b4호출</a> |
-		<a href="${ctp}/btom/b5" class="btn btn-success">b5호출</a> |
-		<a href="${ctp}/btom/b6" class="btn btn-primary">b6호출</a> |
-		<a href="${ctp}/btom/b7" class="btn btn-success">b7호출</a> |
-		<a href="${ctp}/btom/b8" class="btn btn-primary">b8호출</a> |
+	  <a href="${ctp}/btom/b1" class="btn btn-success">b1호출</a> |
+	  <a href="${ctp}/btom/b2" class="btn btn-primary">b2호출</a> |
+	  <a href="${ctp}/btom/b3" class="btn btn-success">b3호출</a> |
+	  <a href="${ctp}/btom/b4" class="btn btn-primary">b4호출</a> |
+	  <a href="${ctp}/btom/b5" class="btn btn-success">b5호출</a> |
+	  <a href="${ctp}/btom/b6" class="btn btn-primary">b6호출</a> |
+	  <a href="${ctp}/btom/b7" class="btn btn-success">b7호출</a> |
+	  <a href="${ctp}/btom/b8" class="btn btn-primary">b8호출</a> |
 	</p>
 	<hr/>
 	<p>
-		<a href="${ctp}/ctom/c1" class="btn btn-primary">c1호출</a>
+	  <a href="${ctp}/ctom/c1" class="btn btn-primary">c1호출</a> |
 	</p>
 </div>
 </body>
