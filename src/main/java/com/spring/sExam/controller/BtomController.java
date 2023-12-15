@@ -82,7 +82,7 @@ public class BtomController {
 			) throws UnsupportedEncodingException {
 		request.setCharacterEncoding("utf-8");
 		
-    System.out.println("name : " + name + " , age : " + age);
+		System.out.println("name : " + name + " , age : " + age);
 		
 		model.addAttribute("name", name);
 		model.addAttribute("age", age);
